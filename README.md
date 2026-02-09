@@ -4,7 +4,7 @@
 
 This repo contains a number of introductory examples for using POSIX services.
 
-It is intended for students to our Operating Systems course with no previous
+It is intended for students in our Operating Systems course with no previous
 knowledge about the C programming language and/or POSIX.
 
 All the examples make use of the following tools:

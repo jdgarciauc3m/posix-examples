@@ -20,7 +20,7 @@ void run_program(int argc, char *argv[]) {
   pid_t pid = fork();
   switch (pid) {
   case -1:
-    fprintf(stderr, "Error: Failed to fork process.\n");
+    perror("fork");
     return;
   case 0: // Child process
   {
